@@ -1,0 +1,363 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('./assets/css/bootstrap.min.css');
+@import url('./assets/css/all.min.css');
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    width:100%;
+    margin: auto;
+}
+header{
+    background: #fff;
+    box-shadow: 0px 0px 8px #d3d3d3;
+    padding: 10px 20px;
+    .logo{
+        height:50px;
+    }
+    .list-inline{
+        padding: 8px 0px;
+        .menu-item{
+            margin-right: 15px;
+            color: #333;
+            text-decoration: none !important;
+            transition: ease-in-out 0.5s all;
+            &:hover{
+                color: #2868D8;
+            }
+        }
+        .menu-item.active{
+            color: #2868D8;
+            font-weight: 600;
+        }
+    }
+}
+.btnLink{
+    background: #2868D8;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 5px;
+    transition: ease-in-out 0.5s all;
+    border: 1px solid #2868D8;
+    text-decoration: none !important;
+    min-width: 115px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    &:hover{
+        background: #fff;
+        color: #2868D8;
+    }
+}
+.btnLinkOutline{
+    background: #fff;
+    color: #2868D8;
+    padding: 4px 20px;
+    border-radius: 5px;
+    transition: ease-in-out 0.5s all;
+    border: 1px solid #2868D8;
+    text-decoration: none !important;
+    min-width: 115px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    &:hover{
+        background: #2868D8;
+        color: #fff;
+    }
+}
+.sectionOne{
+    position: relative;
+}
+.textContent{
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    padding: 30px;
+    .stripOne{
+        margin-bottom: 15px;
+        font-size: 14px;
+        background: rgb(139,137,243,0.3);
+        padding: 10px;
+        border-radius: 50px;
+        color: #d5d4e1;
+        span{
+            background: #15CAB2;
+            margin-right: 6px;
+            color: #0C4B6C;
+            border-radius: 50px;
+            font-weight: 600;
+            width: 26px;
+            height: 26px;
+            display: inline-block;
+            text-align: center;
+            padding-top: 3px;
+        }
+    }
+    .stripTwo{
+        font-size: 38px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .stripThree{
+        font-size: 18px;
+        color: #d5d4e1;
+        margin-bottom: 15px;
+    }
+}
+.sectionThree{
+    padding: 0px 45px;
+}
+.banner{
+    object-fit: cover;
+    height: 370px;
+}
+.sectionTwo{
+    background: #F6F2FB;
+    .list-inline{
+        padding: 5px;
+        li{
+            margin-right: 15px;
+            display: inline;
+            span{
+                margin-left: 10px;
+                font-size: 14px;
+            }
+       
+        }
+    }
+}
+.fontBold700{ font-weight: 600;}
+.colorBlue{
+    color: #22045A;
+}
+.fnt26px{
+    font-size: 26px;
+}
+.btnOne{
+    background: #2868D8;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 2px;
+    transition: ease-in-out 0.5s all;
+    border: 1px solid #2868D8;
+    text-decoration: none !important;
+    min-width: 115px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 14px;
+    &:hover{
+        background: #fff;
+        color: #2868D8;
+    }
+}
+.borderBox{
+    border: 2px solid #2868D8;
+    position: relative;
+    width: 210px;
+    span{
+        color: #2868D8;
+    display: block;
+    font-size: 39px;
+    font-weight: 600;
+    text-align: center;
+    padding: 44px 0px;
+    }
+    div{
+        position: absolute;
+    background: #fff;
+    padding: 4px 10px;
+    right: -63px;
+    width: 100px;
+    color: #7D7D7D;
+    bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    }
+}
+.timerBox{
+    position: relative;
+    i{
+        font-size: 100px;
+        color: #a3a3a3;
+    }
+    div{
+        position: absolute;
+        background: #fff;
+        padding: 4px 10px;
+        right: 26px;
+        width: 100px;
+        color: #7D7D7D;
+        bottom: -18px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: left;
+        line-height: 20px;
+    }
+}
+.sectionFour,.sectionFive{
+    background: #EDF2FC;
+    padding: 25px 50px;
+    p{
+        font-size: 14px;
+        font-weight: 100;
+        color: #8C8C8C;
+    }
+}
+.sectionFive{
+    background: #fff;
+}
+.servicesBox{
+    margin: 30px 0px;
+    a{
+        font-size: 14px;
+    }
+    h5{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+    width: 90%;
+}
+.iconService{
+    background: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 0px;
+    top: -23px;
+    border: 1px solid #ccc;
+    padding-top: 22px;
+    text-align: center;
+}
+}
+.bgDate{
+    background: #054D9A;
+    padding: 10px;
+    width: 150px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+}
+.bgComments{
+    padding: 6px 20px;
+}
+.brdNews{
+    border: 1px solid #ddd;
+    margin: 15px 0px;
+}
+.clientsImage{
+    width: 300px;
+}
+.sendBtn{
+    width: 120px;
+    border: 1px solid #E2EDF4;
+    background: #E2EDF4;
+    color: #054d9a;
+    font-weight: 600;
+}
+.emailLetter{
+    border-radius: 0px;
+    font-style: italic;
+}
+.sectionSeven{
+    background: #054d9a;
+    padding: 2.5rem;
+    color: #fff;
+    .b1{
+        .fa-solid,.fa-regular{
+            font-size: 2.5rem;
+            margin-right: 1.5rem;
+        }
+        div{
+            i{
+                font-size: 12px;
+            }
+        }
+    }
+    
+}
+.sectionEight{
+    background: #f5f6ff;
+    padding: 26px 20px;
+}
+.testimonialCard{
+    margin-top: 10px;
+    box-shadow: 0px 0px 8px #ccc;
+    .cardTwo{
+        padding: 30px 10px 10px 20px;
+        img{
+            width: 65px;
+            height: 65px;
+            border-radius: 50px;
+            object-fit: cover;
+            margin: 0px 15px 0px 0px;
+            border: 2px solid #ccc;
+            padding: 2px;
+        }
+        i{
+            font-size: 12px;
+        }
+    }
+    .cardOne{
+        min-height: 170px;
+        background: #054d9a;
+        color: #fff;
+        padding: 16px;
+        p{
+            color: #fff
+        }
+        div{
+            font-size: 3rem;
+            position: absolute;
+            background: #054d9a;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            text-align: center;
+            bottom: -16px;
+        }
+    }
+}
+.logofooter{
+    width: 60px;
+    margin-bottom: 15px;
+    .explore,.exploreOne{
+        color: #054d9a;
+        font-size: 14px;
+    }
+    
+}
+.copyRights{
+    color: #747474;
+    font-size: 14px;
+    a{
+        color: #004895;
+    }
+}
+.brdright{
+    border-right:1px solid #ccc
+}
+
+@media (min-width: 1366.1px) { 
+    .main-container{
+        width: 1366px;
+    }
+ }
